@@ -17,7 +17,7 @@ if __name__ == '__main__':
     start = time.time()
     for filename in filenames:
         read_info(filename)
-    linear_duration = time.time()
+    linear_duration = time.time() - start
     
     print(f"{linear_duration} (линейный)")
 
